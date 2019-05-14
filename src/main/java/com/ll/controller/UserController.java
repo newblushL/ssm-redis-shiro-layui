@@ -56,4 +56,9 @@ public class UserController {
         ImageIO.write(image, "JPEG", resp.getOutputStream());
     }
 
+    @RequestMapping(value="/loginOut")
+    public String loginOut(){
+        //ShiroUtils.logout();
+        return "redirect:/login.jsp";
+    }
 }
