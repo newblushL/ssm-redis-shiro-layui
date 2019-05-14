@@ -17,6 +17,12 @@
     <mvc:default-servlet-handler/>
     <!-- 静态资源处理  css js imgs -->
     <mvc:resources location="/resources/**" mapping="/resources"/>
+    <mvc:resources location="/css/" mapping="/css/**"/>
+    <mvc:resources location="/js/" mapping="/js/**"/>
+    <mvc:resources location="/layui/" mapping="/layui/**"/>
+    <mvc:resources location="/json/" mapping="/json/**"/>
+    <mvc:resources location="/images/" mapping="/images/**"/>
+    <mvc:resources location="/WEB-INF/page/" mapping="/page/**"/>
 
     <!--避免IE执行AJAX时，返回JSON出现下载文件 -->
     <bean id="mappingJacksonHttpMessageConverter"
@@ -73,8 +79,29 @@
     <!-- 定义跳转的文件的前后缀 ，视图模式配置-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <!-- 这里的配置我的理解是自动给后面action的方法return的字符串加上前缀和后缀，变成一个 可用的url地址 -->
-        <property name="prefix" value="/WEB-INF/jsp/" />
+        <property name="prefix" value="/WEB-INF/" />
         <property name="suffix" value=".jsp" />
+    </bean>
+
+    <!-- 验证码 -->
+    <bean id="captchaProducer" class="com.google.code.kaptcha.impl.DefaultKaptcha">
+        <property name="config">
+            <bean class="com.google.code.kaptcha.util.Config">
+                <constructor-arg>
+                    <props>
+                        <prop key="kaptcha.border">no</prop>
+                        <!--  <prop key="kaptcha.border.color">105,179,90</prop>   -->
+                        <prop key="kaptcha.textproducer.font.color">blue</prop>
+                        <prop key="kaptcha.image.width">125</prop>
+                        <prop key="kaptcha.image.height">45</prop>
+                        <prop key="kaptcha.textproducer.font.size">45</prop>
+                        <prop key="kaptcha.session.key">code</prop>
+                        <prop key="kaptcha.textproducer.char.length">4</prop>
+                        <prop key="kaptcha.textproducer.font.names">宋体,楷体,微软雅黑</prop>
+                    </props>
+                </constructor-arg>
+            </bean>
+        </property>
     </bean>
 
     <!-- 导入redis的配置文件 -->

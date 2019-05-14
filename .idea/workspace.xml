@@ -6,7 +6,462 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a15a426e-0a8f-42f7-8d66-02289e8bd132" name="Default Changelist" comment="" />
+    <list default="true" id="a15a426e-0a8f-42f7-8d66-02289e8bd132" name="Default Changelist" comment="ssm_redis">
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/artifacts/irs_maven_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/artifacts/irs_maven_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__com_alibaba_druid_1_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__com_beust_jcommander_1_48.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__com_github_penggle_kaptcha_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__com_google_zxing_core_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__com_google_zxing_javase_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__com_jhlabs_filters_2_0_235_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__com_oracle_ojdbc7_12_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__com_sun_mail_javax_mail_1_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__io_springfox_springfox_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__io_springfox_springfox_schema_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__io_springfox_springfox_spi_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__io_swagger_swagger_models_1_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_6_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__net_sourceforge_jtds_jtds_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__org_apache_shiro_shiro_ehcache_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__org_mapstruct_mapstruct_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__org_mybatis_mybatis_3_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__org_springframework_spring_aop_4_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__org_springframework_spring_beans_4_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__org_springframework_spring_context_4_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__org_springframework_spring_core_4_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__org_springframework_spring_expression_4_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__org_springframework_spring_test_4_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__org_springframework_spring_tx_4_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__org_springframework_spring_web_4_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/libraries/Maven__redis_clients_jedis_2_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irs-maven/irs_maven.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ll/shiro/CustomRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/shiro-ehcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-shiro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/include/taglib.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/error.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font_eolqem241z66flxr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/images.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/message.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/bootstrap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/diy/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/diy/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/diy/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/diy/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/diy/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/diy/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/diy/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/diy/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/diy/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/diy/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/zTreeStyle/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/404_to_index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/address.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bodyTab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/iconPicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.9.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.ztree.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/kindeditor-all-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/kindeditor-all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/kindeditor-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/kindeditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/lang/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/lang/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/lang/zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/lang/zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/anchor/anchor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/autoheight/autoheight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/baidumap/baidumap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/baidumap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/baidumap/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/clearhtml/clearhtml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/code/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/code/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/code/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/emoticons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/100.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/101.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/102.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/103.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/104.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/105.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/106.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/107.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/108.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/109.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/110.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/111.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/112.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/113.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/114.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/115.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/116.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/117.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/118.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/119.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/120.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/121.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/122.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/123.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/124.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/125.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/126.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/127.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/128.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/129.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/130.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/131.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/132.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/133.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/134.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/72.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/73.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/74.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/75.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/76.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/77.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/78.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/79.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/80.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/81.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/82.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/83.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/84.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/85.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/86.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/87.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/88.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/89.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/90.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/91.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/92.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/93.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/94.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/95.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/96.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/97.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/98.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/99.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/emoticons/images/static.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/filemanager/filemanager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/filemanager/images/file-16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/filemanager/images/file-64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/filemanager/images/folder-16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/filemanager/images/folder-64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/filemanager/images/go-up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/flash/flash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/image/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/image/images/align_left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/image/images/align_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/image/images/align_top.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/image/images/refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/insertfile/insertfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/lineheight/lineheight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/link/link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/map/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/map/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/media/media.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/multiimage/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/multiimage/images/select-files-en.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/multiimage/images/select-files-zh_CN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/multiimage/images/swfupload.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/multiimage/multiimage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/pagebreak/pagebreak.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/plainpaste/plainpaste.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/preview/preview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/quickformat/quickformat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/table/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/template/html/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/template/html/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/template/html/3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/template/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/plugins/wordpaste/wordpaste.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/themes/common/anchor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/themes/common/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/themes/common/flash.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/themes/common/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/themes/common/media.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/themes/common/rm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/themes/default/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/themes/default/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/themes/default/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/themes/qq/editor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/themes/qq/qq.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/kindeditor-4.1.10/themes/simple/simple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/layui-xtree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/leftNav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/json/systemParameter.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/laydate/default/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/all-mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/mobile/layer-mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/mobile/layim-mobile-open.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/mobile/upload-mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/mobile/zepto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/treeGrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/layui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ssm_redis_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ssm_redis_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ssm-redis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ssm-redis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_redis_war_exploded/WEB-INF/classes/com/ll/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_redis_war_exploded/WEB-INF/classes/com/ll/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_redis_war_exploded/WEB-INF/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_redis_war_exploded/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_redis_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_redis_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_redis_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_redis_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_redis_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_redis_war_exploded/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ll/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ll/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ll/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ll/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,17 +478,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+            <state relative-caret-position="375">
+              <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-shiro.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="44" column="32" lean-forward="true" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+            <state relative-caret-position="257">
+              <caret line="40" column="51" lean-forward="true" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-975">
+              <caret line="3" column="46" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -41,74 +523,49 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
+            <state relative-caret-position="142">
+              <caret line="93" column="79" lean-forward="true" selection-start-line="93" selection-start-column="79" selection-end-line="93" selection-end-column="79" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/shiro-ehcache.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            <state relative-caret-position="100">
+              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-redis.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="14" column="69" lean-forward="true" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
-              <folding>
-                <element signature="e#1051#1071#0" expanded="true" />
-                <element signature="e#1113#1131#0" expanded="true" />
-                <element signature="e#1179#1202#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ll/jedis/RedisCache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="97" column="42" lean-forward="true" selection-start-line="97" selection-start-column="42" selection-end-line="97" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ll/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+            <state relative-caret-position="177">
+              <caret line="42" column="88" lean-forward="true" selection-start-line="42" selection-start-column="88" selection-end-line="42" selection-end-column="88" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1085#1101#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/github/penggle/kaptcha/2.3.2/kaptcha-2.3.2.jar!/com/google/code/kaptcha/Producer.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="183" column="55" lean-forward="true" selection-start-line="183" selection-start-column="55" selection-end-line="183" selection-end-column="55" />
+            <state relative-caret-position="150">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Category.class">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery-1.9.1.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="344" selection-start-line="344" selection-end-line="344" />
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -147,6 +604,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -154,8 +612,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ll/ApplictionGlobal.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/error.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/generator.properties" />
@@ -172,17 +628,23 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ll/entity/UserInfo.java" />
         <option value="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ll/mapping/UserInfoMapper.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/ll/jedis/RedisCacheTransfer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis/SqlMapConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ll/jedis/RedisCache.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-redis.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/redis.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ll/shiro/CustomRealm.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/shiro-ehcache.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/login.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/ll/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-shiro.xml" />
       </list>
     </option>
   </component>
@@ -201,10 +663,13 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="208" />
-    <option name="y" value="50" />
-    <option name="width" value="1750" />
-    <option name="height" value="988" />
+    <option name="x" value="385" />
+    <option name="y" value="59" />
+    <option name="width" value="1751" />
+    <option name="height" value="990" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -259,15 +724,6 @@
               <item name="ssm-redis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ll" type="462c0819:PsiDirectoryNode" />
-              <item name="jedis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm-redis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -275,23 +731,7 @@
               <item name="ssm-redis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm-redis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm-redis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -302,10 +742,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557482426847" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -314,17 +755,20 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\Administrator\workspace_idea\ssm-redis\src\main\webapp" />
+      <recent name="D:\work\Administrator\workspace_idea\ssm-redis\src\main\resources" />
+      <recent name="D:\work\Administrator\workspace_idea\ssm-redis\src\main\webapp\WEB-INF\page" />
+      <recent name="D:\work\Administrator\workspace_idea\ssm-redis\src\main\webapp\WEB-INF\page\include" />
+      <recent name="D:\work\Administrator\workspace_idea\ssm-redis\src\main\resources\mybatis" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\work\Administrator\workspace_idea\ssm-redis\src\main\webapp" />
       <recent name="D:\work\Administrator\workspace_idea\ssm-redis\src\main\webapp\WEB-INF" />
       <recent name="D:\work\Administrator\workspace_idea\ssm-redis\src\main\java\com\ll" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\work\Administrator\workspace_idea\ssm-redis\src\main\resources\mybatis" />
-      <recent name="D:\work\Administrator\workspace_idea\ssm-redis\src\main\webapp\WEB-INF\jsp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -584,12 +1028,13 @@
       <workItem from="1557710173641" duration="53000" />
       <workItem from="1557710253168" duration="7032000" />
       <workItem from="1557718867648" duration="5272000" />
-      <workItem from="1557730854676" duration="6250000" />
+      <workItem from="1557730854676" duration="9348000" />
+      <workItem from="1557795647807" duration="8470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40872000" />
+    <option name="totallyTimeSpent" value="52440000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -614,8 +1059,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966776" visible="true" weight="0.5588235" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.57843137" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49966776" visible="true" weight="0.34081346" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31837308" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32913166" />
@@ -624,7 +1069,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50033224" side_tool="true" weight="0.5588235" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32633054" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3253857" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.32913166" />
@@ -645,71 +1090,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ssm_redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssm_redis" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/logs/ssm.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="233" selection-start-line="4" selection-start-column="233" selection-end-line="4" selection-end-column="233" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/dao/UserInfoMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ll/mapping/UserInfoMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ll/testmybatis/TestMyBatis.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ll/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.2.RELEASE/spring-webmvc-4.0.2.RELEASE.jar!/org/springframework/web/servlet/config/spring-mvc-4.0.xsd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/UserInfoMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ll/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ll/ApplictionGlobal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.7.1/jedis-2.7.1.jar!/redis/clients/jedis/HostAndPort.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ll/entity/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/showUser.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ll/mapping/UserInfoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -907,56 +1292,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="14" column="69" lean-forward="true" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
-          <folding>
-            <element signature="e#1051#1071#0" expanded="true" />
-            <element signature="e#1113#1131#0" expanded="true" />
-            <element signature="e#1179#1202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ll/jedis/RedisCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="97" column="42" lean-forward="true" selection-start-line="97" selection-start-column="42" selection-end-line="97" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Category.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="344" selection-start-line="344" selection-end-line="344" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/Log4jLoggerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -974,28 +1309,172 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ll/jedis/RedisCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="97" column="42" selection-start-line="97" selection-start-column="42" selection-end-line="97" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Category.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7575">
+          <caret line="344" selection-start-line="344" selection-end-line="344" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/list.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/include/taglib.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/taglib.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_201/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="381" selection-start-line="381" selection-end-line="381" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ll/shiro/CustomRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-86">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <element signature="e#1179#1202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.2.RELEASE/spring-core-4.0.2.RELEASE.jar!/org/springframework/util/ClassUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+        <state relative-caret-position="223">
+          <caret line="49" column="32" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="183" column="55" lean-forward="true" selection-start-line="183" selection-start-column="55" selection-end-line="183" selection-end-column="55" />
+        <state relative-caret-position="342">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery-1.9.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/servlet/http/HttpServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/penggle/kaptcha/2.3.2/kaptcha-2.3.2.jar!/com/google/code/kaptcha/Producer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-975">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="40" column="51" lean-forward="true" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ll/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        <state relative-caret-position="177">
+          <caret line="42" column="88" lean-forward="true" selection-start-line="42" selection-start-column="88" selection-end-line="42" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1085#1101#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="93" column="79" lean-forward="true" selection-start-line="93" selection-start-column="79" selection-end-line="93" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/shiro-ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="44" column="32" lean-forward="true" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
         </state>
       </provider>
     </entry>
