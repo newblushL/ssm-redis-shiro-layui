@@ -3,22 +3,22 @@ layui.use(['form', 'layer'], function () {
         layer = parent.layer === undefined ? layui.layer : parent.layer,
         $ = layui.jquery;
     
-    layer.alert('测试账号：admin 密码：123456', {
-    	  skin: 'layui-layer-molv' //样式类名
-    	  ,closeBtn: 0,
-    	  offset: 't',
-    	  anim: 6
-    	})
+    // layer.alert('测试账号：admin 密码：123456', {
+    // 	  skin: 'layui-layer-molv' //样式类名
+    // 	  ,closeBtn: 0,
+    // 	  offset: 't',
+    // 	  anim: 6
+    // 	});
     	
     //登录按钮事件
     form.on("submit(login)", function (data) {
         $.ajax({
             type: "POST",
-            url: ctx+"/sys/login",
+            url: ctx+"/user/login",
             data:$("#form").serialize(),
             success: function (result) {
-                if (result.code == 0) {//登录成功
-                    parent.location.href = ctx+'/sys/index';
+                if (result.code == 1) {//登录成功
+                    parent.location.href = ctx+'/user/index';
                 } else{
                     layer.msg(result.msg, {icon: 5});
                     refreshCode();

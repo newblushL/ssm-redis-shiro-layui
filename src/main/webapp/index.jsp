@@ -44,7 +44,7 @@
                 <li class="layui-nav-item" pc>
                     <a href="javascript:;">
                         <i class="layui-icon">&#xe612;</i>
-                        <cite><shiro:principal property="fullname"/>  </cite>
+<%--                        <cite><shiro:principal property="fullname"/>  </cite>--%>
                     </a>
                     <dl class="layui-nav-child">
                         <dd><a href="javascript:;" data-url="${ctx }/sys/personalData"><i class="iconfont icon-zhanghu" data-icon="icon-zhanghu"></i><cite>个人资料</cite></a></dd>
